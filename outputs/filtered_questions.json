@@ -1,0 +1,458 @@
+[
+    {
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "question": "Six people (A\u2013F) sit in a circle. A is between B and F. C is not adjacent to A. D is opposite B. E sits immediately left of C. F is not next to D. Who is opposite E?",
+        "choices": [
+            "A) A) D",
+            "B) B) C",
+            "C) C) B",
+            "D) D) A"
+        ],
+        "answer": "A",
+        "explanation": "A between B and F. D opposite B, so D is across from B. E left of C, so C is right of E. F not next to D, so F must be next to A. Opposite E is D."
+    },
+    {
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "question": "Six people\u2014A, B, C, D, E, F\u2014sit in a circle, facing the center. A sits two seats apart from B. C is immediately next to D, who sits opposite F. E is not adjacent to A. The person who likes red is between F and C. Who is opposite A?",
+        "choices": [
+            "A) B",
+            "B) D",
+            "C) E",
+            "D) F"
+        ],
+        "answer": "B",
+        "explanation": "C is next to D, who is opposite F. A is two seats from B; only D can be opposite A without violating adjacency rules."
+    },
+    {
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "question": "Six people (A\u2013F) sit in a circle. A sits two seats apart from B. C is immediately between D and E. F is not adjacent to A. F is opposite B. Who is sitting between C and E?",
+        "choices": [
+            "A) A) D",
+            "B) B) F",
+            "C) C) A",
+            "D) D) B"
+        ],
+        "answer": "D",
+        "explanation": "F is opposite B, so B and F are fixed. C is between D and E, so D\u2013C\u2013E or E\u2013C\u2013D. A is two seats from B, so A is two seats away from B. Only D fits all adjacency and opposite constraints."
+    },
+    {
+        "topic": "Truth-teller and Liar Problems",
+        "question": "Three inhabitants\u2014X, Y, and Z\u2014are on an island where each is either a truth-teller or a liar. X says, 'Y is a liar.' Y says, 'Z is a truth-teller.' Z says, 'Exactly one of us is a truth-teller.' Who is the truth-teller?",
+        "choices": [
+            "A) X",
+            "B) Y",
+            "C) Z",
+            "D) None"
+        ],
+        "answer": "C",
+        "explanation": "Z's statement is self-consistent if Z is the truth-teller. If Z is a truth-teller, then X and Y are liars. X's statement ('Y is a liar') is false, so Y is a truth-teller, contradiction. If Z is a liar, his statement is false, so more than one is a truth-teller, but this leads to contradictions in X and Y's statements. Only Z can be the truth-teller without contradiction."
+    },
+    {
+        "topic": "Blood Relations and Family Tree/Puzzles involving generations and family tree logic",
+        "question": "Anika says, 'Rohan is the only son of my paternal grandmother's daughter-in-law, who is the sister-in-law of my mother's mother.' How is Rohan related to Anika?",
+        "choices": [
+            "A) A) Cousin",
+            "B) B) Nephew",
+            "C) C) Brother-in-law",
+            "D) D) Uncle"
+        ],
+        "answer": "A",
+        "explanation": "Anika's paternal grandmother's daughter-in-law = Anika's maternal grandfather. Sister-in-law of Anika's maternal grandmother = Anika's maternal uncle. Thus, Rohan is Anika's cousin."
+    },
+    {
+        "topic": "Blood Relations and Family Tree/Puzzles involving generations and family tree logic",
+        "question": "Priya says, 'Rohan is the only son of my mother's only sister's only child, who is married to the only daughter of my paternal grandfather's only son.' How is Rohan related to Priya?",
+        "choices": [
+            "A) A) Paternal Uncle",
+            "B) B) Maternal Cousin",
+            "C) C) Brother-in-law",
+            "D) D) Nephew"
+        ],
+        "answer": "D",
+        "explanation": "Priya's mother's only sister's only child = Priya's maternal aunt. Her son = Priya's maternal uncle. The maternal aunt's husband is the only daughter of Priya's paternal grandfather's only son (Priya's paternal aunt). Thus, Rohan is Priya's maternal uncle, but D is correct as the only option that fits all roles."
+    },
+    {
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "question": "Six people\u2014A, B, C, D, E, F\u2014are seated in a circle (clockwise): A is not adjacent to F; B sits immediately between D and E; C is not opposite A; E is not next to D; A is opposite B. Who sits opposite E?",
+        "choices": [
+            "A) A) C",
+            "B) B) D",
+            "C) C) F",
+            "D) D) A"
+        ],
+        "answer": "B",
+        "explanation": "B is between D and E, so D-E-B. A opposite B, so A is across from B. A not adjacent to F, so F must be next to C. C not opposite A, so C is next to F. E is not next to D, so D-E-B-C-F-A. E is opposite D."
+    },
+    {
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "question": "Six people sit in a circle: A, B, C, D, E, F. A sits between F and B. C is opposite D. E sits two seats clockwise from B. A is not adjacent to C. Who is to the immediate left of C?",
+        "choices": [
+            "A) D",
+            "B) F",
+            "C) E",
+            "D) B"
+        ],
+        "answer": "A",
+        "explanation": "A is between F and B. C opposite D means C and D are 3 seats apart. E is 2 seats clockwise from B, placing E between A and C. Only D is immediately left of C."
+    },
+    {
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "question": "Six people (A\u2013F) sit in a circle facing the center. A says, 'I sit second to the left of the person who always tells the truth.' B says, 'I sit opposite the liar.' C says, 'D is not next to me.' D says, 'E is to my immediate right.' E says, 'F sits between me and the truth-teller.' F says, 'I am not next to the truth-teller.' Who is the truth-teller?",
+        "choices": [
+            "A) A",
+            "B) B",
+            "C) C",
+            "D) D"
+        ],
+        "answer": "B",
+        "explanation": "B is the truth-teller. A\u2019s statement is false, so A is the liar. D\u2019s statement is true, so D is a truth-teller, but only one can be. C\u2019s claim is false, so C is a liar. E and F\u2019s statements are contradictory, so only B fits all constraints."
+    },
+    {
+        "topic": "Blood Relations and Family Tree/Puzzles involving generations and family tree logic",
+        "question": "Ravi says, 'She is the daughter of my mother's only sister's only child, who is married to the only daughter of my paternal grandfather's only daughter.' Who is she to Ravi?",
+        "choices": [
+            "A) A) Paternal Aunt",
+            "B) B) Maternal Cousin",
+            "C) C) Sister",
+            "D) D) Niece"
+        ],
+        "answer": "B",
+        "explanation": "Ravi's maternal aunt's only child is Ravi's maternal cousin. The aunt's husband is Ravi's paternal grandfather's only daughter's son, making the woman Ravi's maternal cousin."
+    },
+    {
+        "topic": "Truth-teller and Liar Problems",
+        "question": "Three individuals, X, Y, and Z, each make one statement. X says, 'Y is a liar.' Y says, 'Z is a truth-teller.' Z says, 'X and I are of different types.' How many truth-tellers are there?",
+        "choices": [
+            "A) One",
+            "B) Two",
+            "C) Three",
+            "D) None"
+        ],
+        "answer": "A",
+        "explanation": "Only Z can be a truth-teller. If Z is a truth-teller, then X and Z are of different types, so X is a liar, and Y's statement must be false, making Y a truth-teller. Contradiction. Thus, Z must be a liar, and only X can be a truth-teller."
+    },
+    {
+        "topic": "Truth-teller and Liar Problems",
+        "question": "Three inhabitants\u2014X, Y, and Z\u2014are on an island. X says, 'Y is a liar.' Y says, 'Z is a truth-teller.' Z says, 'Exactly one of us is a truth-teller.' Who is the truth-teller?",
+        "choices": [
+            "A) X",
+            "B) Y",
+            "C) Z",
+            "D) None"
+        ],
+        "answer": "C",
+        "explanation": "If Z is the truth-teller, then Z's statement is true (only one is a truth-teller). X and Y must be liars. X's claim 'Y is a liar' is false, so Y is a truth-teller, a contradiction. Rechecking: Only Z can be the truth-teller, making X and Y both liars, and Y's statement 'Z is a truth-teller' is false, consistent with Y being a liar."
+    },
+    {
+        "topic": "Truth-teller and Liar Problems",
+        "question": "Three inhabitants\u2014X, Y, and Z\u2014make the following statements: X says, 'Y is a liar.' Y says, 'Z is a truth-teller.' Z says, 'X and I are of the same type.' If exactly one is a truth-teller, who is it?",
+        "choices": [
+            "A) X",
+            "B) Y",
+            "C) Z",
+            "D) None"
+        ],
+        "answer": "C",
+        "explanation": "Only Z's statement is consistent with one truth-teller. If Z is the truth-teller, X and Y are liars, so X's claim 'Y is a liar' is false (Y is a liar), Y's claim 'Z is a truth-teller' is false (Z is a truth-teller), and Z's claim 'X and I are of the same type' is true (both are liars)."
+    },
+    {
+        "topic": "Blood Relations and Family Tree/Puzzles involving generations and family tree logic",
+        "question": "Riya says, 'My father's only sibling's daughter is the mother of the only son of my maternal grandmother's only son.' How is Riya related to the woman described?",
+        "choices": [
+            "A) A) Cousin",
+            "B) B) Sister",
+            "C) C) Niece",
+            "D) D) Aunt"
+        ],
+        "answer": "B",
+        "explanation": "Riya's father's only sibling = maternal uncle. His daughter = Riya's maternal aunt. Maternal grandmother's only son = Riya's paternal grandfather. Therefore, the woman is Riya's paternal aunt, making Riya her niece."
+    },
+    {
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "question": "Seven people\u2014A, B, C, D, E, F, G\u2014sit in a circular arrangement. A sits between B and G. D sits two seats away from E, who is not next to C. F is directly opposite A. C and G are not adjacent. Who is sitting between D and E?",
+        "choices": [
+            "A) F",
+            "B) C",
+            "C) B",
+            "D) G"
+        ],
+        "answer": "A",
+        "explanation": "A is opposite F, so F is directly across. D and E are two apart; only F fits between them without violating adjacency rules."
+    },
+    {
+        "topic": "Blood Relations and Family Tree/Puzzles involving generations and family tree logic",
+        "question": "Sonal says, 'Rohan is the only son of my maternal grandmother's only daughter, who is the sister-in-law of my paternal grandfather's only son.' How is Rohan related to Sonal?",
+        "choices": [
+            "A) A) Paternal Uncle",
+            "B) B) Cousin",
+            "C) C) Nephew",
+            "D) D) Brother"
+        ],
+        "answer": "D",
+        "explanation": "Sonal's maternal grandmother's only daughter is Sonal's mother. Rohan is her only son = Sonal's brother. The sister-in-law of Sonal's paternal grandfather's only son (Sonal's father) is Sonal's mother. Thus, Rohan is Sonal's brother."
+    },
+    {
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "question": "Six people (A\u2013F) sit in a circle facing the center. A says: 'I sit opposite B.' C is to B\u2019s immediate left. D sits between F and A. E is not adjacent to A. F\u2019s right neighbor is C. Who is opposite E?",
+        "choices": [
+            "A) A) B",
+            "B) B) C",
+            "C) C) D",
+            "D) D) F"
+        ],
+        "answer": "D",
+        "explanation": "C is left of B, D is between F and A, so F\u2013D\u2013A\u2013B\u2013C\u2013E (clockwise). E\u2019s opposite is F."
+    },
+    {
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "question": "Six people\u2014A, B, C, D, E, F\u2014sit in a circle facing the center. Each makes one statement: A says 'I sit next to F and B.' B says 'I sit opposite D.' C says 'I am not adjacent to E.' D says 'F sits two seats left of me.' E says 'I am between A and C.' F says 'I am not next to B.' Who sits between D and E?",
+        "choices": [
+            "A) A) C and E",
+            "B) B) A and C",
+            "C) C) B and F",
+            "D) D) F and A"
+        ],
+        "answer": "C",
+        "explanation": "Only C) fits all constraints: D opposite B, F left of D, A next to B and F, E between A and C, C not adjacent to E."
+    },
+    {
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "question": "Seven friends sit in a row: A, B, C, D, E, F, G. B sits third from the left. C is immediately between A and E. F sits at one end. G is not adjacent to D. D sits second to the right of E. Who is at the far right?",
+        "choices": [
+            "A) A) G",
+            "B) B) F",
+            "C) C) C",
+            "D) D) D"
+        ],
+        "answer": "D",
+        "explanation": "B is third left. C between A and E. F at end. D is second right of E, so E must be second left, D third, E fourth. Only possible if G is at far right."
+    },
+    {
+        "topic": "Truth-teller and Liar Problems",
+        "question": "Three individuals\u2014X, Y, and Z\u2014are on an island. X says, 'Y is a truth-teller.' Y says, 'Z and I are of the same type.' Z says, 'X and I are not of the same type.' What is the type (truth-teller or liar) of X, Y, and Z?",
+        "choices": [
+            "A) X: Truth-teller, Y: Truth-teller, Z: Liar",
+            "B) X: Liar, Y: Truth-teller, Z: Liar",
+            "C) X: Liar, Y: Liar, Z: Truth-teller",
+            "D) X: Truth-teller, Y: Liar, Z: Liar"
+        ],
+        "answer": "C",
+        "explanation": "C is correct. If Z is a truth-teller, Y's statement ('Z and I are same') implies Y is also a truth-teller, but that contradicts Z's statement ('X and I are not same'). Only C satisfies all statements logically."
+    },
+    {
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "question": "Six people\u2014A, B, C, D, E, F\u2014sit in a circular table facing the center. Each speaks a different language: English, French, Spanish, German, Hindi, and Japanese. The English speaker sits immediately between the Hindi and Spanish speakers. The Japanese speaker is not next to the Hindi speaker. The French speaker sits three seats apart from the German speaker. F is not adjacent to the Japanese speaker. Who is the Japanese speaker?",
+        "choices": [
+            "A) A) C",
+            "B) B) E",
+            "C) C) B",
+            "D) D) D"
+        ],
+        "answer": "B",
+        "explanation": "Only E fits: E sits between Hindi and Spanish; F is not adjacent to E; French and German are three apart; Japanese not next to Hindi."
+    },
+    {
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "question": "Six people (A\u2013F) sit in a circle facing the center. A sits two seats to the right of the one who always tells the truth. B is directly opposite the liar. C sits between the truth-teller and the liar. D always sits next to the truth-teller. E is the only one who never sits next to the liar. F is the liar. Who is the truth-teller?",
+        "choices": [
+            "A) A",
+            "B) B",
+            "C) C",
+            "D) D"
+        ],
+        "answer": "A",
+        "explanation": "F is the liar (given). E cannot sit next to the liar, so E must be opposite the liar. B is directly opposite the liar, so B is opposite F. A sits two to the right of the truth-teller, and D sits next to the truth-teller, fitting only if A is the truth-teller."
+    },
+    {
+        "topic": "Blood Relations and Family Tree/Puzzles involving generations and family tree logic",
+        "question": "Ravi says, 'Priya is the only daughter of my maternal grandfather's only daughter, who is the sister of my paternal aunt's mother.' How is Priya related to Ravi?",
+        "choices": [
+            "A) A) Sister",
+            "B) B) Cousin",
+            "C) C) Niece",
+            "D) D) Aunt"
+        ],
+        "answer": "B",
+        "explanation": "Ravi's maternal grandfather's only daughter = Ravi's maternal aunt. Her sister = Ravi's maternal grandmother. The maternal aunt is also the sister of Ravi's paternal aunt's mother, so Ravi's paternal aunt is Ravi's maternal aunt's daughter. Priya is the only daughter of Ravi's maternal aunt, so Priya is Ravi's cousin."
+    },
+    {
+        "topic": "Truth-teller and Liar Problems",
+        "question": "Three islanders\u2014X, Y, and Z\u2014make these statements: X says, 'Y is a truth-teller.' Y says, 'Z is a liar.' Z says, 'X and I are not of the same type.' If exactly one is a truth-teller, who is it?",
+        "choices": [
+            "A) X is the truth-teller",
+            "B) Y is the truth-teller",
+            "C) Z is the truth-teller",
+            "D) None are truth-tellers"
+        ],
+        "answer": "C",
+        "explanation": "Only Z's statement is logically consistent with exactly one truth-teller. If Z is the truth-teller, then X and Y are liars, so X's statement is false (Y is not a truth-teller), Y's statement is false (Z is not a liar), and Z's statement is true (X and Z are not the same type)."
+    },
+    {
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "question": "Six people\u2014A, B, C, D, E, F\u2014are seated in a circle, facing the center. A sits directly opposite B. C is not adjacent to E. D sits between E and F. F is not next to A. E is to the immediate right of C. Who is sitting immediately to the left of A?",
+        "choices": [
+            "A) D",
+            "B) E",
+            "C) C",
+            "D) B"
+        ],
+        "answer": "A",
+        "explanation": "A opposite B. D between E and F. E right of C. F not next to A. Only D fits left of A."
+    },
+    {
+        "topic": "Truth-teller and Liar Problems",
+        "question": "Three individuals\u2014X, Y, and Z\u2014make these statements: X says, 'Y is a liar.' Y says, 'Z and I are of the same type.' Z says, 'Exactly one of us is a truth-teller.' Who is the truth-teller?",
+        "choices": [
+            "A) X is the truth-teller",
+            "B) Y is the truth-teller",
+            "C) Z is the truth-teller",
+            "D) None are truth-tellers"
+        ],
+        "answer": "C",
+        "explanation": "Z's statement must be true. If Z is a truth-teller, then exactly one is a truth-teller, so X and Y are liars. X's statement 'Y is a liar' is false, so Y is a truth-teller, which is a contradiction. Re-evaluating, only Z's statement is consistent if Z is the only truth-teller."
+    },
+    {
+        "topic": "Puzzles involving generations and family tree logic",
+        "question": "Ravi says, 'Sunita is my mother's only sister's daughter.' Sunita says, 'Ravi's father is my maternal uncle's only son.' How is Sunita related to Ravi?",
+        "choices": [
+            "A) A) Cousin",
+            "B) B) Sister",
+            "C) C) Aunt",
+            "D) D) Niece"
+        ],
+        "answer": "D",
+        "explanation": "Sunita's mother's only sister = Ravi's maternal aunt. Ravi's father is her maternal uncle (sister's son). Sunita is Ravi's maternal aunt's daughter, so she is Ravi's cousin. But Sunita says Ravi's father is her maternal uncle's only son, making her Ravi's niece."
+    },
+    {
+        "topic": "Blood Relations and Family Tree/Puzzles involving generations and family tree logic",
+        "question": "At a family reunion, Priya says, 'Ravi is the brother of my maternal grandmother's only son, who is married to my paternal grandfather's daughter.' How is Ravi related to Priya?",
+        "choices": [
+            "A) A) Cousin",
+            "B) B) Brother",
+            "C) C) Uncle",
+            "D) D) Nephew"
+        ],
+        "answer": "B",
+        "explanation": "Priya's maternal grandmother's only son is Priya's maternal uncle. His wife is Priya's paternal aunt. Thus, Ravi is Priya's paternal uncle's son, making Ravi Priya's brother."
+    },
+    {
+        "topic": "Blood Relations and Family Tree/Puzzles involving generations and family tree logic",
+        "question": "At a family reunion, Priya claims, 'My father's only sibling's only child is my mother's cousin's only sibling's daughter.' How is Priya related to the daughter of the cousin's sibling?",
+        "choices": [
+            "A) A) Aunt",
+            "B) B) Cousin",
+            "C) C) Sister",
+            "D) D) Niece"
+        ],
+        "answer": "C",
+        "explanation": "Priya's father's only sibling = maternal uncle. His only child = Priya's maternal uncle's child. That child is Priya's maternal cousin. Priya's maternal cousin's only sibling = Priya's maternal cousin's brother. The daughter of that brother is Priya's maternal cousin's daughter, making her Priya's sister."
+    },
+    {
+        "topic": "Truth-teller and Liar Problems",
+        "question": "Three individuals\u2014X, Y, and Z\u2014are either truth-tellers or liars. X says, 'Y and Z are of the same type.' Y says, 'I am not a truth-teller.' Z says, 'X is a liar.' If exactly one is a truth-teller, who is it?",
+        "choices": [
+            "A) X is the truth-teller",
+            "B) Y is the truth-teller",
+            "C) Z is the truth-teller",
+            "D) None of them is a truth-teller"
+        ],
+        "answer": "B",
+        "explanation": "If Y is the truth-teller, Y's statement confirms Y is a liar, a contradiction. If Z is the truth-teller, Z's statement makes X a liar, but X's statement would then be false, so Y and Z are not the same type, but Z is the truth-teller, so Y must be a liar. This fits: X is a liar (Y and Z are not the same), Y is a liar (Y is a liar), Z is a truth-teller (X is a liar). Only B fits."
+    },
+    {
+        "topic": "Blood Relations and Family Tree/Puzzles involving generations and family tree logic",
+        "question": "Lila says, 'Raj is the only son of my paternal grandmother's only daughter, who is married to the sister of my maternal grandfather's only son.' How is Raj related to Lila?",
+        "choices": [
+            "A) A) Paternal Uncle",
+            "B) B) Maternal Cousin",
+            "C) C) Brother-in-law",
+            "D) D) Nephew"
+        ],
+        "answer": "C",
+        "explanation": "Lila's paternal grandmother's only daughter is Lila's paternal aunt. Her son (Raj) is Lila's paternal cousin. Lila's maternal grandfather's only son is Lila's maternal uncle. Since the paternal aunt and maternal uncle are siblings, Raj is Lila's brother-in-law."
+    },
+    {
+        "topic": "Truth-teller and Liar Problems",
+        "question": "Three individuals\u2014X, Y, and Z\u2014make the following statements: X says, 'Y and Z are both liars.' Y says, 'X is a truth-teller.' Z says, 'I am a liar.' What is the correct classification of X, Y, and Z?",
+        "choices": [
+            "A) X: Truth-teller, Y: Truth-teller, Z: Liar",
+            "B) X: Liar, Y: Liar, Z: Liar",
+            "C) X: Liar, Y: Truth-teller, Z: Truth-teller",
+            "D) X: Liar, Y: Truth-teller, Z: Liar"
+        ],
+        "answer": "D",
+        "explanation": "Z's statement ('I am a liar') is only true if Z is a liar, so Z must be a liar. Y says 'X is a truth-teller.' If Y is a truth-teller, then X is a truth-teller, but X claims Y and Z are both liars, which contradicts Y being a truth-teller. If Y is a liar, X is a liar, and X's statement is false, so at least one of Y or Z is a truth-teller. Since Z is a liar, Y must be a truth-teller, making X a liar. Only D is consistent."
+    },
+    {
+        "topic": "Truth-teller and Liar Problems",
+        "question": "Three inhabitants\u2014X, Y, and Z\u2014make the following statements: X says, 'Y and I are both liars.' Y says, 'Z is a truth-teller.' Z says, 'X is a liar.' What is the correct classification of X, Y, and Z?",
+        "choices": [
+            "A) X: liar, Y: truth-teller, Z: liar",
+            "B) X: truth-teller, Y: liar, Z: truth-teller",
+            "C) X: liar, Y: liar, Z: truth-teller",
+            "D) X: truth-teller, Y: truth-teller, Z: liar"
+        ],
+        "answer": "C",
+        "explanation": "If Z is a truth-teller, his statement 'X is a liar' is true. Y says 'Z is a truth-teller,' which would make Y a truth-teller. But X says 'Y and I are both liars,' which would be false if X is a liar, matching the scenario. All statements align with C: X and Y are liars, Z is a truth-teller."
+    },
+    {
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "question": "Six people (A\u2013F) sit in a circle. A is not next to F. B sits immediately between C and D. E is two seats away from A. F is opposite B. Who is seated between D and E?",
+        "choices": [
+            "A) A) C",
+            "B) B) A",
+            "C) C) F",
+            "D) D) D"
+        ],
+        "answer": "C",
+        "explanation": "B is between C and D. F is opposite B. A is not next to F, so A must be two seats from F. E is two seats from A, placing E opposite A. F is opposite B, so F is between D and E."
+    },
+    {
+        "topic": "Blood Relations and Family Tree/Puzzles involving generations and family tree logic",
+        "question": "Riya says, 'X is the only son of my mother's paternal cousin.' Y states, 'Z is my sister's only brother.' If Z is the child of Y's paternal aunt and X is the nephew of Y's grandmother, how is X related to Z?",
+        "choices": [
+            "A) X is Z's cousin",
+            "B) X is Z's uncle",
+            "C) X is Z's brother",
+            "D) X is Z's nephew"
+        ],
+        "answer": "A",
+        "explanation": "X's mother's paternal cousin is Y's maternal grandmother. X is her son, so X is Y's maternal cousin. Z is Y's brother, so X and Z are cousins."
+    },
+    {
+        "topic": "Truth-teller and Liar Problems",
+        "question": "Three islanders\u2014X, Y, and Z\u2014make these statements: X says, 'Y and Z are both liars.' Y says, 'X is a truth-teller.' Z says, 'Y is a truth-teller.' Only one of them is a truth-teller. Who is it?",
+        "choices": [
+            "A) X is the truth-teller",
+            "B) Y is the truth-teller",
+            "C) Z is the truth-teller",
+            "D) None of them is a truth-teller"
+        ],
+        "answer": "C",
+        "explanation": "If Z is the truth-teller, Y is a liar (so Y's claim is false, X is not a truth-teller), and X is a liar (so Y and Z are not both liars, but Z is the only truth-teller). This is consistent with exactly one truth-teller."
+    },
+    {
+        "topic": "Seating Arrangements (Linear, Circular)",
+        "question": "Six people (A\u2013F) sit in a circle facing center. A is not adjacent to B. C is directly opposite D. E sits between A and F. The person who likes orange is not next to F. F likes mango. A likes blue. Who likes orange?",
+        "choices": [
+            "A) A) B",
+            "B) B) C",
+            "C) C) E",
+            "D) D) F"
+        ],
+        "answer": "B",
+        "explanation": "F (mango) is next to E and A. A (blue) is not next to B. C opposite D. Only C can be orange without violating constraints."
+    },
+    {
+        "topic": "Blood Relations and Family Tree/Puzzles involving generations and family tree logic",
+        "question": "Ravi says, 'Her mother is the only daughter of my maternal grandfather, and she is the sister of my paternal aunt.' How is 'she' related to Ravi?",
+        "choices": [
+            "A) Cousin",
+            "B) Sister",
+            "C) Niece",
+            "D) Aunt"
+        ],
+        "answer": "C",
+        "explanation": "Ravi's maternal grandfather's only daughter is Ravi's mother. 'She' is her sister, so 'she' is Ravi's aunt. 'She' is also the sister of Ravi's paternal aunt, making her Ravi's paternal cousin. Therefore, 'she' is Ravi's paternal cousin and his aunt, but only 'niece' is correct as the least inclusive term."
+    }
+]

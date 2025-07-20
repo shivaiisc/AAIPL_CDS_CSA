@@ -1,0 +1,70 @@
+[
+    {
+        "reasoning": "Anaya's mother's brother is Ravi's grandfather. Ravi's mother is Anaya's paternal grandmother's daughter, so Ravi's mother is Anaya's aunt. Therefore, Ravi is Anaya's cousin.",
+        "answer": "A"
+    },
+    {
+        "reasoning": "Ramesh and Lata's mother are siblings. Ravi's mother is Ramesh's sister, so Ravi and Lata are cousins.",
+        "answer": "A"
+    },
+    {
+        "reasoning": "Assume P is a knight. Then Q is a knave, so Q's statement is false, making R a knave. R says P is a liar, but as a knave, this is false, so P is a knight, consistent. Thus, only P is a knight. If any other assignment fails, so B is correct.",
+        "answer": "B"
+    },
+    {
+        "reasoning": "Assume Y is the truth-teller: Y says Z is a liar, so Z is a liar. Z says X is a liar, so X is a truth-teller. But we assumed only one truth-teller. Contradiction. Try Z as truth-teller: Z says X is a liar, so X is a liar. X says Y is a truth-teller, so Y is a liar. Only one truth-teller (Z) fits. Other options lead to contradictions.",
+        "answer": "C"
+    },
+    {
+        "reasoning": "Ravi's maternal uncle is Priya's uncle. Priya's mother's sister is married to Ravi's paternal grandfather's daughter, making them siblings. Thus, Ravi and Priya are cousins.",
+        "answer": "A"
+    },
+    {
+        "reasoning": "Assume A and D are truth-tellers. A says B is a liar (true), D says A is a truth-teller (true). B says C is a truth-teller (false, so B is a liar). C says D is a liar (false, so C is a liar). This fits exactly two truth-tellers (A, D) and two liars (B, C).",
+        "answer": "D"
+    },
+    {
+        "reasoning": "Start by placing A between B and F. G is opposite C, so C and G are fixed. D is two seats right of E, and F is two left of G. Testing arrangements, B must be between E and D.",
+        "answer": "A"
+    },
+    {
+        "reasoning": "Ravi is Ramesh's cousin, and Sita is Ramesh's cousin as well. Therefore, Ravi and Sita are cousins.",
+        "answer": "A"
+    },
+    {
+        "reasoning": "Ravi's paternal grandmother's only son is Ravi's grandfather. Suman's father is married to this grandfather's daughter, making Suman's father Ravi's maternal uncle. Thus, Ravi is Suman's father's nephew, so the correct answer is D) Cousin.",
+        "answer": "D"
+    },
+    {
+        "reasoning": "Assume A and B are truth-tellers. Then B is a truth-teller, so C is a truth-teller, but that would make three truth-tellers, which is impossible. Try B and C as truth-tellers: B says C is a truth-teller (true), C says D is a liar (true). D is a liar, so D says A is a liar (false), so A is a truth-teller. Contradiction. Try C and D as truth-tellers: C says D is a liar (false). D says A is a liar (true). A says B is a liar (false). B says C is a truth-teller (false). Only one liar, contradiction. Try A and D: A says B is a liar (true), D says A is a liar (false). B says C is a truth-teller (true), C says D is a liar (false). Two truth-tellers (A, B), two liars (C, D). Correct.",
+        "answer": "B"
+    },
+    {
+        "reasoning": "Start by placing B opposite C. A is third left of B, so A is 3 seats counterclockwise from B. K is two left of A, so K is 2 seats left of A. D is adjacent to E, who is two right of F. G is between H and I, I opposite J. By placing all around the circle, D is opposite J.",
+        "answer": "A"
+    },
+    {
+        "reasoning": "If P is truthful, Q is a liar, so R must be a truth-teller (contradicts 'exactly one truth-teller'). If Q is truthful, R is a truth-teller, contradicting 'only one'. If R is truthful, P and Q are same type, so both liars, which fits. Hence, R is the truth-teller.",
+        "answer": "C"
+    },
+    {
+        "reasoning": "B is opposite C, so B and C are directly across. A is second to the left of B, placing A and B in positions 1 and 3. D is next to E, and F is between G and H (both facing outward). I is opposite J, and J is next to K (facing outward). The only one opposite A is I.",
+        "answer": "C"
+    },
+    {
+        "reasoning": "Start with A opposite D. F is two left of A, so F, A, D, and F\u2019s opposite is E. B is two right of E, so B is F. C is between B and F, so C is E. Thus, C is left of E.",
+        "answer": "B"
+    },
+    {
+        "reasoning": "Assume P is a knight (truth-teller). Then Q is a knave. Q says R is a knight, but since Q is a knave, R must be a knave. R says P is a knave, but as R is a knave, P is a knight. This fits: P: knight, Q: knave, R: knave. Only option B matches.",
+        "answer": "B"
+    },
+    {
+        "reasoning": "Start by placing A between B and C. D is opposite E. F is two seats right of G, who is next to H. I is three left of J, next to A. K is between D and F. By testing positions, D is opposite A.",
+        "answer": "B"
+    },
+    {
+        "reasoning": "Assume A and D are truth-tellers. A says B is a liar (true), D says A is a truth-teller (true). B says C is a truth-teller (false, so B is a liar). C says D is a liar (false, so C is a liar). This matches exactly two truth-tellers (A, D) and two liars (B, C).",
+        "answer": "D"
+    }
+]

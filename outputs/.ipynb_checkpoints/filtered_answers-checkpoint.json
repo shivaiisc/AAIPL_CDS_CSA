@@ -1,0 +1,70 @@
+[
+    {
+        "reasoning": "Anaya's mother's brother is Ravi's grandfather. Ravi's mother is the daughter of Anaya's paternal grandmother's only son, meaning Ravi's mother is Anaya's cousin. Therefore, Ravi is Anaya's cousin.",
+        "answer": "A"
+    },
+    {
+        "reasoning": "Ravi is the son of Ramesh's only sister, making Ravi Ramesh's cousin. Ramesh's father is the brother of Lata's mother, making Ramesh's father Lata's maternal uncle. Lata is the daughter of Ramesh's paternal uncle, making Lata Ramesh's cousin. Since both Ravi and Lata are cousins, Lata is Ravi's cousin.",
+        "answer": "A"
+    },
+    {
+        "reasoning": "Assume P is a knight (truth-teller). Then Q is a knave (liar). Q says R is a knight, but since Q is a liar, R is a knave. R says P is a liar, but since R is a knave, P is a knight. This is consistent. Thus, only P is a knight. So there is 1 knight.",
+        "answer": "B"
+    },
+    {
+        "reasoning": "If X is a truth-teller, then Y is a truth-teller, which contradicts the condition of exactly one truth-teller. If Y is a truth-teller, then Z is a liar, and X is a liar, satisfying the condition. If Z is a truth-teller, then X is a liar, and Y is a liar, which also satisfies the condition. However, if Y is a truth-teller, Z is a liar, and X is a liar, this fits exactly one truth-teller. Thus, the correct answer is B.",
+        "answer": "B"
+    },
+    {
+        "reasoning": "Ravi is the son of Priya's maternal uncle, making Ravi the nephew of Priya's mother. Priya's mother's only sister is married to the only son of Ravi's paternal grandfather's daughter, which means they are cousins. Thus, Ravi is the nephew of Priya's mother, making the correct answer B) Niece.",
+        "answer": "B"
+    },
+    {
+        "reasoning": "Assume A is a truth-teller. Then B is a liar. If B is a liar, then C is a liar. If C is a liar, then D is a truth-teller. If D is a truth-teller, then A is a truth-teller, which is consistent. This makes A and D truth-tellers, and B and C liars, satisfying the condition of exactly two truth-tellers.",
+        "answer": "D"
+    },
+    {
+        "reasoning": "From the clues, we determine the seating order. A is between B and F. F is two seats left of G, and G is opposite C. D is two seats right of E. B is not adjacent to D. Placing these constraints, the only person between E and D is C.",
+        "answer": "C"
+    },
+    {
+        "reasoning": "Ravi is the son of Ramesh's only sister, making Ravi Ramesh's cousin. Ramesh's father is the brother of Sita's father, so Ramesh and Sita share the same grandfather. Sita is the daughter of Ramesh's paternal uncle, meaning Sita is Ramesh's cousin. Since Ravi and Sita are both cousins of Ramesh, they are cousins of each other.",
+        "answer": "A"
+    },
+    {
+        "reasoning": "Suman's father is married to the daughter of Ravi's paternal grandmother's only son. Ravi's paternal grandmother's only son is Ravi's father. Therefore, Suman's father is married to Ravi's mother. This makes Ravi the son-in-law of Suman's father.",
+        "answer": "B"
+    },
+    {
+        "reasoning": "Assume A and B are truth-tellers. Then B's statement that C is a truth-teller would be true, making C a truth-teller, which contradicts the condition of exactly two truth-tellers. If B and C are truth-tellers, then C's statement that D is a liar is true, and B's statement that C is a truth-teller is true, making D a liar. A's statement that B is a liar would be false, making A a liar. This fits the condition of exactly two truth-tellers (B and C) and two liars (A and D).",
+        "answer": "B"
+    },
+    {
+        "reasoning": "By analyzing the seating arrangement step by step, we determine the positions of all individuals. Using the given clues, we find that D is seated next to E, who is two seats to the right of F. Through logical deduction, we find that J is directly opposite D.",
+        "answer": "A"
+    },
+    {
+        "reasoning": "If P is a truth-teller, then Q is a liar, making Q's statement false, so R is not a truth-teller. R's statement would then be false, implying P and Q are not the same type, which is true since P is truthful and Q is a liar. This fits with exactly one truth-teller (P). If Q is truthful, R is truthful, contradicting the condition. If R is truthful, P and Q are the same type, but P says Q is a liar, which would make P a liar, and Q says R is truthful, which would make Q a truth-teller, contradicting. Thus, P is the truth-teller.",
+        "answer": "A"
+    },
+    {
+        "reasoning": "From the clues, we determine positions step by step. B is directly opposite C, and A is second to the left of B. D is adjacent to E (facing outward), and F is between G and H (both facing outward). I is opposite J, and J is adjacent to K (facing outward). By placing these positions around the table, we find that the person directly opposite A is I.",
+        "answer": "C"
+    },
+    {
+        "reasoning": "From the clues, we determine the seating order. A is opposite D. F is two seats to the left of A, so F is two seats counterclockwise from A. B is two seats to the right of E. C is between B and F. By placing these in a circle, we find E is between D and F. Thus, the person immediately to the left of E is D.",
+        "answer": "D"
+    },
+    {
+        "reasoning": "If P is a knight (truth-teller), then Q is a knave. If Q is a knave, then Q's statement that R is a knight is false, so R is a knave. But R says P is a knave, which would be true if R is a knave, creating a contradiction. If P is a knave, then Q is a knight. If Q is a knight, then R is a knight. If R is a knight, then R's statement that P is a knave is true, which is consistent. Thus, the correct classification is B.",
+        "answer": "B"
+    },
+    {
+        "reasoning": "From the clues, A is between B and C. D is opposite E. F is two seats to the right of G, who is adjacent to H. I is three seats to the left of J, who is adjacent to A. K is between D and F. By placing these clues in a circular arrangement, J is adjacent to A, so J is next to A. Since D is opposite E and K is between D and F, F is opposite J. Thus, J is opposite A.",
+        "answer": "D"
+    },
+    {
+        "reasoning": "Assume A is a truth-teller. Then B is a liar. If B is a liar, then C is a liar. If C is a liar, then D is a truth-teller. If D is a truth-teller, then A is a truth-teller, which matches our assumption. This makes A and D truth-tellers, and B and C liars, satisfying the condition of exactly two truth-tellers.",
+        "answer": "D"
+    }
+]
