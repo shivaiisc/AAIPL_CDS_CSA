@@ -46,7 +46,7 @@ git remote add origin "https://huggingface.co/${HF_USERNAME}/${REPO_NAME}"
 git pull origin main || echo "Remote branch doesn't exist yet. Skipping pull."
 git add .
 git commit -m "$COMMIT_MESSAGE"
-git push origin main
+git push --force origin main
 
 echo "✅ Upload complete: https://huggingface.co/${HF_USERNAME}/${REPO_NAME}"
 
