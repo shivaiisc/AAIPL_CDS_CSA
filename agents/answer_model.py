@@ -11,7 +11,10 @@ class AAgent(object):
         self.model_type = kwargs.get('model_type', '4B').strip()
         # model_name = "Qwen/Qwen3-4B"
         # model_name = "/jupyter-tutorial/hf_models/Qwen3-4B"
+        # model_name = "ckpt/checkpoint-450"
+        
         model_name = "ckpt/checkpoint-450"
+
         # load the tokenizer and the model
         self.tokenizer = AutoTokenizer.from_pretrained(model_name, padding_side='left')
         self.model = AutoModelForCausalLM.from_pretrained(
