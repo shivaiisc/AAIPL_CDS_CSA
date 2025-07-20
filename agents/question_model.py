@@ -10,7 +10,8 @@ class QAgent(object):
         # model_name = "Qwen/Qwen3-4B"
         # model_name = "/jupyter-tutorial/hf_models/Qwen3-4B"
         # model_name = "ckpt/checkpoint-360"
-        model_name = "ckpt/checkpoint-450"
+        # model_name = "ckpt/checkpoint-450"
+        model_name = 'ckpt/final'
         
         
         # load the tokenizer and the model
