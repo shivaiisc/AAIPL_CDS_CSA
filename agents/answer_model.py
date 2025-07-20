@@ -13,7 +13,7 @@ class AAgent(object):
         # model_name = "/jupyter-tutorial/hf_models/Qwen3-4B"
         # model_name = "ckpt/checkpoint-450"
         
-        model_name = "ckpt/checkpoint-450"
+        model_name = "ckpt/final"
 
         # load the tokenizer and the model
         self.tokenizer = AutoTokenizer.from_pretrained(model_name, padding_side='left')
