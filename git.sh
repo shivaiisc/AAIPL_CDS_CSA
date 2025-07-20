@@ -23,6 +23,6 @@ REMOTE_URL="https://github.com/$GITHUB_USERNAME/$REPO_NAME.git"
 git remote add origin "$REMOTE_URL"
 
 echo "Pushing code to GitHub..."
-git push -u origin main
+git push -u origin main --force
 
 echo "✅ Done! Repo pushed to: $REMOTE_URL"
